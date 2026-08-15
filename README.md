@@ -37,7 +37,7 @@ Open loader.py and paste the Key and Encrypted Data into the variables at the to
 
 5. Deploy & Test:
 Run loader.py on a Windows machine. It will automatically hide in the Startup folder and start working in the background.
-🛡️ Why this method?
+
 
 I used Fernet (AES) encryption here. The real code is never saved as plain text on the hard drive—it only decrypts inside the RAM. This is a common way to avoid basic static antivirus scans.
 
