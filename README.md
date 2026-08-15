@@ -21,7 +21,7 @@ The system is split into 4 simple parts:
 
 **1. Install the basics:**
 Open your terminal and run:
-```
+
 pip install flask cryptography pynput requests
 
 2. Start the Server:
@@ -41,4 +41,4 @@ Run loader.py on a Windows machine. It will automatically hide in the Startup fo
 
 I used Fernet (AES) encryption here. The real code is never saved as plain text on the hard drive—it only decrypts inside the RAM. This is a common way to avoid basic static antivirus scans.
 
-Made by:  Dragon
+Dragon
